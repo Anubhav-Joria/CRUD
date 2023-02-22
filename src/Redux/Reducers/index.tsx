@@ -4,25 +4,13 @@ interface ActionA {
   payload ?: any
 }
 
-
+// Mock Data 
 export const  users = [
   {
     name : 'Harry',
     email : "harry1@gmail.com",
     book : "Goblet of fire",
     price : 2001
-  }, 
-  {
-    name : 'Ron',
-    email : "harry2@gmail.com",
-    book : "Rings of power",
-    price : 2002
-  } , 
-  {
-    name : 'Weasely',
-    email : "harry3@gmail.com",
-    book : "Broken",
-    price : 2003
   }
 ]
 
